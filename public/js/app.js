@@ -38675,49 +38675,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['url', 'name'],
@@ -38737,7 +38694,6 @@ __webpack_require__.r(__webpack_exports__);
       country_id: 7,
       pincode: '',
       aadhar_number: '',
-      address: '',
       notes: '',
       countrylist: [],
       statelist: [],
@@ -38806,7 +38762,6 @@ __webpack_require__.r(__webpack_exports__);
         this.state_id = this.user.state_id;
         this.city_id = this.user.city_id;
         this.pincode = this.user.pincode;
-        this.address = this.user.address;
         this.notes = this.user.notes;
         this.was_baptized = this.user.was_baptized;
         this.baptism_date = this.user.baptism_date;
@@ -57286,7 +57241,6 @@ __webpack_require__.r(__webpack_exports__);
         }
       }).then(function (response) {
         _this.success = response.data.success;
-        console.log(_this.success);
 
         _this.resetForm();
       })["catch"](function (error) {
@@ -76368,7 +76322,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".tiptap-editor {\n  border: 1px solid #d1d5db;\n  border-radius: 6px;\n  overflow: hidden;\n}\n.tiptap-toolbar {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 2px;\n  padding: 6px 8px;\n  background: #f9fafb;\n  border-bottom: 1px solid #d1d5db;\n}\n.tiptap-toolbar button {\n  padding: 4px 8px;\n  font-size: 13px;\n  border: 1px solid transparent;\n  border-radius: 4px;\n  background: transparent;\n  cursor: pointer;\n  color: #374151;\n  line-height: 1.4;\n}\n.tiptap-toolbar button:hover {\n  background: #e5e7eb;\n  border-color: #d1d5db;\n}\n.tiptap-toolbar button.is-active {\n  background: #3b82f6;\n  color: #fff;\n  border-color: #2563eb;\n}\n.tiptap-toolbar button:disabled {\n  opacity: 0.4;\n  cursor: not-allowed;\n}\n.tiptap-divider {\n  display: inline-block;\n  width: 1px;\n  background: #d1d5db;\n  margin: 2px 4px;\n  align-self: stretch;\n}\n.tiptap-content {\n  padding: 12px 16px;\n  min-height: 320px;\n  outline: none;\n}\n.tiptap-content .ProseMirror {\n  min-height: 300px;\n  outline: none;\n}\n.tiptap-content .ProseMirror h1 { font-size: 1.875rem; font-weight: 700; margin: 1rem 0 0.5rem;\n}\n.tiptap-content .ProseMirror h2 { font-size: 1.5rem; font-weight: 700; margin: 1rem 0 0.5rem;\n}\n.tiptap-content .ProseMirror h3 { font-size: 1.25rem; font-weight: 600; margin: 0.75rem 0 0.4rem;\n}\n.tiptap-content .ProseMirror h4 { font-size: 1.125rem; font-weight: 600; margin: 0.75rem 0 0.4rem;\n}\n.tiptap-content .ProseMirror p { margin: 0.5rem 0;\n}\n.tiptap-content .ProseMirror ul { list-style-type: disc; padding-left: 1.5rem; margin: 0.5rem 0;\n}\n.tiptap-content .ProseMirror ol { list-style-type: decimal; padding-left: 1.5rem; margin: 0.5rem 0;\n}\n.tiptap-content .ProseMirror blockquote { border-left: 4px solid #d1d5db; padding-left: 1rem; color: #6b7280; margin: 0.75rem 0;\n}\n.tiptap-content .ProseMirror code { background: #f3f4f6; border-radius: 3px; padding: 0.1em 0.3em; font-family: monospace;\n}\n.tiptap-content .ProseMirror pre { background: #1f2937; color: #f9fafb; padding: 0.75rem 1rem; border-radius: 6px; overflow-x: auto; margin: 0.75rem 0;\n}\n.tiptap-content .ProseMirror pre code { background: none; padding: 0; color: inherit;\n}\n.tiptap-content .ProseMirror a { color: #3b82f6; text-decoration: underline;\n}\n.tiptap-content .ProseMirror img { max-width: 100%; height: auto; border-radius: 4px;\n}\n.tiptap-content .ProseMirror p.is-editor-empty:first-child::before {\n  content: attr(data-placeholder);\n  float: left;\n  color: #adb5bd;\n  pointer-events: none;\n  height: 0;\n}\r\n", ""]);
+exports.push([module.i, ".tiptap-editor {\n  border: 1px solid #d1d5db;\n  border-radius: 6px;\n  overflow: hidden;\n}\n.tiptap-toolbar {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 2px;\n  padding: 6px 8px;\n  background: #f9fafb;\n  border-bottom: 1px solid #d1d5db;\n}\n.tiptap-toolbar button {\n  padding: 4px 8px;\n  font-size: 13px;\n  border: 1px solid transparent;\n  border-radius: 4px;\n  background: transparent;\n  cursor: pointer;\n  color: #374151;\n  line-height: 1.4;\n}\n.tiptap-toolbar button:hover {\n  background: #e5e7eb;\n  border-color: #d1d5db;\n}\n.tiptap-toolbar button.is-active {\n  background: #3b82f6;\n  color: #fff;\n  border-color: #2563eb;\n}\n.tiptap-toolbar button:disabled {\n  opacity: 0.4;\n  cursor: not-allowed;\n}\n.tiptap-divider {\n  display: inline-block;\n  width: 1px;\n  background: #d1d5db;\n  margin: 2px 4px;\n  align-self: stretch;\n}\n.tiptap-content {\n  padding: 12px 16px;\n  min-height: 320px;\n  outline: none;\n}\n.tiptap-content .ProseMirror {\n  min-height: 300px;\n  outline: none;\n}\n.tiptap-content .ProseMirror h1 { font-size: 1.875rem; font-weight: 700; margin: 1rem 0 0.5rem;\n}\n.tiptap-content .ProseMirror h2 { font-size: 1.5rem; font-weight: 700; margin: 1rem 0 0.5rem;\n}\n.tiptap-content .ProseMirror h3 { font-size: 1.25rem; font-weight: 600; margin: 0.75rem 0 0.4rem;\n}\n.tiptap-content .ProseMirror h4 { font-size: 1.125rem; font-weight: 600; margin: 0.75rem 0 0.4rem;\n}\n.tiptap-content .ProseMirror p { margin: 0.5rem 0;\n}\n.tiptap-content .ProseMirror ul { list-style-type: disc; padding-left: 1.5rem; margin: 0.5rem 0;\n}\n.tiptap-content .ProseMirror ol { list-style-type: decimal; padding-left: 1.5rem; margin: 0.5rem 0;\n}\n.tiptap-content .ProseMirror blockquote { border-left: 4px solid #d1d5db; padding-left: 1rem; color: #6b7280; margin: 0.75rem 0;\n}\n.tiptap-content .ProseMirror code { background: #f3f4f6; border-radius: 3px; padding: 0.1em 0.3em; font-family: monospace;\n}\n.tiptap-content .ProseMirror pre { background: #1f2937; color: #f9fafb; padding: 0.75rem 1rem; border-radius: 6px; overflow-x: auto; margin: 0.75rem 0;\n}\n.tiptap-content .ProseMirror pre code { background: none; padding: 0; color: inherit;\n}\n.tiptap-content .ProseMirror a { color: #3b82f6; text-decoration: underline;\n}\n.tiptap-content .ProseMirror img { max-width: 100%; height: auto; border-radius: 4px;\n}\n.tiptap-content .ProseMirror p.is-editor-empty:first-child::before {\n  content: attr(data-placeholder);\n  float: left;\n  color: #adb5bd;\n  pointer-events: none;\n  height: 0;\n}\n", ""]);
 
 // exports
 
@@ -76387,7 +76341,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".text-small[data-v-6a26523b] {\n  font-size: 11px;\n}\n.position-relative[data-v-6a26523b] {\n  position: relative;\n}\n.position-absolute[data-v-6a26523b] {\n  position: absolute;\n}\n.text-center[data-v-6a26523b] {\n  text-align: center;\n}\n.text-primary[data-v-6a26523b] {\n  color: #2fa3e6;\n}\n.display-flex[data-v-6a26523b] {\n  display: flex;\n}\n.flex-column[data-v-6a26523b] {\n  flex-direction: column;\n}\n.flex-wrap[data-v-6a26523b] {\n  flex-wrap: wrap;\n}\n.justify-content-center[data-v-6a26523b] {\n  justify-content: center;\n}\n.justify-content-between[data-v-6a26523b] {\n  justify-content: space-between;\n}\n.justify-content-end[data-v-6a26523b] {\n  justify-content: flex-end;\n}\n.align-items-center[data-v-6a26523b] {\n  align-items: center;\n}\n.full-width[data-v-6a26523b] {\n  width: 100%;\n}\n.full-height[data-v-6a26523b] {\n  height: 100%;\n}\n.cursor-pointer[data-v-6a26523b] {\n  cursor: pointer;\n}\n.centered[data-v-6a26523b] {\n  left: 50%;\n  transform: translate(-50%,-50%);\n  top: 50%;\n  position: absolute;\n  display: block;\n}\n.image-container[data-v-6a26523b] {\n  /*width: 190px;*/\n  height: 180px;\n  border: 1px dashed #D6D6D6;\n  border-radius: 4px;\n  background-color: #fff;\n}\n.image-center[data-v-6a26523b] {\n  width: 100%;\n  height: 100%;\n}\n.image-icon-drag[data-v-6a26523b] {\n  fill: #c9c8c8;\n  height: 50px;\n  width: 50px;\n}\n.drag-text[data-v-6a26523b] {\n  padding-top: 5px;\n  color: #2d3748;\n  font-weight: 500;\n  line-height: 1.5;\n  font-size: 14px;\n}\n.browse-text[data-v-6a26523b] {\n  font-size: 86%;\n  color: #206ec5;\n  text-decoration: none;\n}\n.image-input[data-v-6a26523b] {\n  overflow: hidden;\n  opacity: 0;\n  top: 0;\n  left: 0;\n  bottom: 0;\n}\n.image-input label[data-v-6a26523b] {\n  display: block;\n}\n.drag-upload-cover[data-v-6a26523b] {\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: #FCFEFF;\n  opacity: .9;\n  z-index: 1;\n  margin: 5px;\n  border: 2px dashed #268DDD;\n}\n.drag-upload-cover[data-v-6a26523b] {\n  font-weight: 400;\n  font-size: 20px;\n}\n.icon-drag-drop[data-v-6a26523b] {\n  height: 50px;\n  width: 50px;\n  fill: #2fa3e6;\n}\n.drop-text-here[data-v-6a26523b] {\n  margin: 0;\n  line-height: 1.5;\n}\n.display-none[data-v-6a26523b] {\n  display: none;\n}\n\n/* list images*/\n.image-list[data-v-6a26523b] {\n  border: 1px solid #D6D6D6;\n}\n.preview-image[data-v-6a26523b] {\n  height: 140px;\n  padding: 5px;\n  border-radius: 15px;\n  box-sizing: border-box;\n}\n.image-overlay[data-v-6a26523b] {\n  background: rgba(0,0,0,.7);\n  z-index: 10;\n  border-radius: 5px;\n  opacity: 0;\n  transition: all .3s ease-in-out 0s;\n}\n.image-overlay-details[data-v-6a26523b] {\n  position: absolute;\n  z-index: 11;\n  opacity: 0;\n  transform: translate(0,-50%);\n  top: 50%;\n}\n.icon-overlay[data-v-6a26523b] {\n  width: 40px;\n  height: 40px;\n  fill: #fff;\n}\n.preview-image:hover .image-overlay[data-v-6a26523b], .preview-image:hover .image-overlay-details[data-v-6a26523b]{\n  opacity: 1;\n}\n.img-responsive[data-v-6a26523b] {\n  display: block;\n  max-width: 100%;\n  height: auto;\n}\n.show-img[data-v-6a26523b] {\n  max-height: 100px;\n  max-width: 140px;\n  display: block;\n  vertical-align: middle;\n}\n\n/*image bottom*/\n.image-bottom[data-v-6a26523b] {\n  bottom: 0;\n  left: 0;\n  height: 40px;\n  padding: 5px 10px;\n  box-sizing: border-box;\n}\n.image-primary[data-v-6a26523b] {\n  border-radius: 4px;\n  background-color: #e3edf7;\n  padding: 3px 7px;\n  font-size: 11px;\n  margin-right: 5px;\n}\n.image-icon-primary[data-v-6a26523b] {\n  width: 10px;\n  height: 10px;\n  margin-right: 2px;\n}\n.image-icon-delete[data-v-6a26523b] {\n  height: 14px;\n  width: 14px;\n  fill: #222;\n}\n.image-edit[data-v-6a26523b] {\n  margin-right: 10px;\n}\n.image-icon-edit[data-v-6a26523b] {\n  height: 14px;\n  width: 14px;\n  fill: #222;\n}\n.image-list-container[data-v-6a26523b] {\n  max-width: 190px;\n  min-height: 50px;\n  margin-top: 10px;\n}\n.image-list-container .image-list-item[data-v-6a26523b] {\n  height: 32px;\n  width: 32px;\n  border-radius: 4px;\n  border: 1px solid #D6D6D6;\n}\n.image-list-container .image-list-item[data-v-6a26523b]:not(:last-child) {\n  margin-right: 5px;\n  margin-bottom: 5px;\n}\n.image-list-container .image-list-item .show-img[data-v-6a26523b] {\n  max-width: 25px;\n  max-height: 17px;\n}\n.image-list-container .image-highlight[data-v-6a26523b] {\n  border: 1px solid #2fa3e7;\n}\n.add-image-svg[data-v-6a26523b] {\n  width: 12px;\n  height: 12px;\n  fill: #222;\n}\n.input-add-image[data-v-6a26523b] {\n  overflow: hidden;\n  opacity: 0;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  z-index: 11;\n}\n.input-add-image label[data-v-6a26523b] {\n  display: block;\n}\n.image-icon-info[data-v-6a26523b] {\n  width: 14px;\n  height: 14px;\n  fill: #222;\n}\n.mark-text-primary[data-v-6a26523b] {\n  color: #034694;\n}\n.popper-custom[data-v-6a26523b] {\n  background: #000;\n  padding: 10px;\n  border: none;\n  box-shadow: none;\n  color: white;\n  text-align: left;\n  font-size: 12px;\n}\r\n", ""]);
+exports.push([module.i, ".text-small[data-v-6a26523b] {\n  font-size: 11px;\n}\n.position-relative[data-v-6a26523b] {\n  position: relative;\n}\n.position-absolute[data-v-6a26523b] {\n  position: absolute;\n}\n.text-center[data-v-6a26523b] {\n  text-align: center;\n}\n.text-primary[data-v-6a26523b] {\n  color: #2fa3e6;\n}\n.display-flex[data-v-6a26523b] {\n  display: flex;\n}\n.flex-column[data-v-6a26523b] {\n  flex-direction: column;\n}\n.flex-wrap[data-v-6a26523b] {\n  flex-wrap: wrap;\n}\n.justify-content-center[data-v-6a26523b] {\n  justify-content: center;\n}\n.justify-content-between[data-v-6a26523b] {\n  justify-content: space-between;\n}\n.justify-content-end[data-v-6a26523b] {\n  justify-content: flex-end;\n}\n.align-items-center[data-v-6a26523b] {\n  align-items: center;\n}\n.full-width[data-v-6a26523b] {\n  width: 100%;\n}\n.full-height[data-v-6a26523b] {\n  height: 100%;\n}\n.cursor-pointer[data-v-6a26523b] {\n  cursor: pointer;\n}\n.centered[data-v-6a26523b] {\n  left: 50%;\n  transform: translate(-50%,-50%);\n  top: 50%;\n  position: absolute;\n  display: block;\n}\n.image-container[data-v-6a26523b] {\n  /*width: 190px;*/\n  height: 180px;\n  border: 1px dashed #D6D6D6;\n  border-radius: 4px;\n  background-color: #fff;\n}\n.image-center[data-v-6a26523b] {\n  width: 100%;\n  height: 100%;\n}\n.image-icon-drag[data-v-6a26523b] {\n  fill: #c9c8c8;\n  height: 50px;\n  width: 50px;\n}\n.drag-text[data-v-6a26523b] {\n  padding-top: 5px;\n  color: #2d3748;\n  font-weight: 500;\n  line-height: 1.5;\n  font-size: 14px;\n}\n.browse-text[data-v-6a26523b] {\n  font-size: 86%;\n  color: #206ec5;\n  text-decoration: none;\n}\n.image-input[data-v-6a26523b] {\n  overflow: hidden;\n  opacity: 0;\n  top: 0;\n  left: 0;\n  bottom: 0;\n}\n.image-input label[data-v-6a26523b] {\n  display: block;\n}\n.drag-upload-cover[data-v-6a26523b] {\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: #FCFEFF;\n  opacity: .9;\n  z-index: 1;\n  margin: 5px;\n  border: 2px dashed #268DDD;\n}\n.drag-upload-cover[data-v-6a26523b] {\n  font-weight: 400;\n  font-size: 20px;\n}\n.icon-drag-drop[data-v-6a26523b] {\n  height: 50px;\n  width: 50px;\n  fill: #2fa3e6;\n}\n.drop-text-here[data-v-6a26523b] {\n  margin: 0;\n  line-height: 1.5;\n}\n.display-none[data-v-6a26523b] {\n  display: none;\n}\n\n/* list images*/\n.image-list[data-v-6a26523b] {\n  border: 1px solid #D6D6D6;\n}\n.preview-image[data-v-6a26523b] {\n  height: 140px;\n  padding: 5px;\n  border-radius: 15px;\n  box-sizing: border-box;\n}\n.image-overlay[data-v-6a26523b] {\n  background: rgba(0,0,0,.7);\n  z-index: 10;\n  border-radius: 5px;\n  opacity: 0;\n  transition: all .3s ease-in-out 0s;\n}\n.image-overlay-details[data-v-6a26523b] {\n  position: absolute;\n  z-index: 11;\n  opacity: 0;\n  transform: translate(0,-50%);\n  top: 50%;\n}\n.icon-overlay[data-v-6a26523b] {\n  width: 40px;\n  height: 40px;\n  fill: #fff;\n}\n.preview-image:hover .image-overlay[data-v-6a26523b], .preview-image:hover .image-overlay-details[data-v-6a26523b]{\n  opacity: 1;\n}\n.img-responsive[data-v-6a26523b] {\n  display: block;\n  max-width: 100%;\n  height: auto;\n}\n.show-img[data-v-6a26523b] {\n  max-height: 100px;\n  max-width: 140px;\n  display: block;\n  vertical-align: middle;\n}\n\n/*image bottom*/\n.image-bottom[data-v-6a26523b] {\n  bottom: 0;\n  left: 0;\n  height: 40px;\n  padding: 5px 10px;\n  box-sizing: border-box;\n}\n.image-primary[data-v-6a26523b] {\n  border-radius: 4px;\n  background-color: #e3edf7;\n  padding: 3px 7px;\n  font-size: 11px;\n  margin-right: 5px;\n}\n.image-icon-primary[data-v-6a26523b] {\n  width: 10px;\n  height: 10px;\n  margin-right: 2px;\n}\n.image-icon-delete[data-v-6a26523b] {\n  height: 14px;\n  width: 14px;\n  fill: #222;\n}\n.image-edit[data-v-6a26523b] {\n  margin-right: 10px;\n}\n.image-icon-edit[data-v-6a26523b] {\n  height: 14px;\n  width: 14px;\n  fill: #222;\n}\n.image-list-container[data-v-6a26523b] {\n  max-width: 190px;\n  min-height: 50px;\n  margin-top: 10px;\n}\n.image-list-container .image-list-item[data-v-6a26523b] {\n  height: 32px;\n  width: 32px;\n  border-radius: 4px;\n  border: 1px solid #D6D6D6;\n}\n.image-list-container .image-list-item[data-v-6a26523b]:not(:last-child) {\n  margin-right: 5px;\n  margin-bottom: 5px;\n}\n.image-list-container .image-list-item .show-img[data-v-6a26523b] {\n  max-width: 25px;\n  max-height: 17px;\n}\n.image-list-container .image-highlight[data-v-6a26523b] {\n  border: 1px solid #2fa3e7;\n}\n.add-image-svg[data-v-6a26523b] {\n  width: 12px;\n  height: 12px;\n  fill: #222;\n}\n.input-add-image[data-v-6a26523b] {\n  overflow: hidden;\n  opacity: 0;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  z-index: 11;\n}\n.input-add-image label[data-v-6a26523b] {\n  display: block;\n}\n.image-icon-info[data-v-6a26523b] {\n  width: 14px;\n  height: 14px;\n  fill: #222;\n}\n.mark-text-primary[data-v-6a26523b] {\n  color: #034694;\n}\n.popper-custom[data-v-6a26523b] {\n  background: #000;\n  padding: 10px;\n  border: none;\n  box-shadow: none;\n  color: white;\n  text-align: left;\n  font-size: 12px;\n}\n", ""]);
 
 // exports
 
@@ -76406,7 +76360,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".popper-custom .popper__arrow {\n  border-color: #000 transparent transparent transparent !important;\n}\n.swiper-container {\n  display: flex !important;\n  align-items: center;\n}\n.vue-lightbox-content .swiper-container .swiper-slide {\n  padding: 20px 0;\n}\n.modal-mask {\n  padding-top: 40px !important;\n}\r\n", ""]);
+exports.push([module.i, ".popper-custom .popper__arrow {\n  border-color: #000 transparent transparent transparent !important;\n}\n.swiper-container {\n  display: flex !important;\n  align-items: center;\n}\n.vue-lightbox-content .swiper-container .swiper-slide {\n  padding: 20px 0;\n}\n.modal-mask {\n  padding-top: 40px !important;\n}\n", ""]);
 
 // exports
 
@@ -76539,7 +76493,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 
 // module
-exports.push([module.i, ".VueCarousel-dot--active[data-v-7b5a4d3b]\r\n{\n  background-color: white! important;\n}\n@media (max-width: 600px) {\n.VueCarousel-navigation-button[data-v-7b5a4d3b]{\n    display: none! important;\n}\n}\n@media screen and (max-width: 660px) {\n.VueCarousel-navigation-prev[data-v-7b5a4d3b],\r\n  .VueCarousel-navigation-next[data-v-7b5a4d3b]{\n    display:none! important;\n}\n}\n.VueCarousel-dot-button[data-v-7b5a4d3b] {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border: none;\n  background-color:black! important;\n  padding: 0;\n  border-radius: 100%;\n  outline: none;\n  cursor: pointer;\n}\n.tw-form-control-select[data-v-7b5a4d3b] {\n  display: block;\n  margin-top: 0.5rem;\n  /* -webkit-appearance: none;\r\n    -moz-appearance: none;\r\n    appearance: none;\r\n   width: 100%; */\n  background-color: #f7fafc;\n  border-width: 1px;\n  border-color: #edf2f7;\n  color: #000;\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  border-radius: 0.25rem;\n}\n.modal-mask[data-v-7b5a4d3b] {\n  position: fixed;\n  /*position: absolute;\r\n  overflow: auto;*/\n  z-index: 9998;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-7b5a4d3b] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow:auto;\n}\n.modal-container[data-v-7b5a4d3b] {\n  margin: 0px auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 2px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  transition: all .3s ease;\n}\n.modal-header h3[data-v-7b5a4d3b] {\n  margin-top: 0;\n  color: #42b983;\n}\n.modal-body[data-v-7b5a4d3b] {\n  margin:10px 0;\n}\n.modal-default-button[data-v-7b5a4d3b] {\n  float: right;\n}\n.modal-enter[data-v-7b5a4d3b] {\n  opacity: 0;\n}\n.modal-leave-active[data-v-7b5a4d3b] {\n  opacity: 0;\n}\n.modal-enter .modal-container[data-v-7b5a4d3b],\r\n.modal-leave-active .modal-container[data-v-7b5a4d3b] {\n  transform: scale(1.1);\n}\n.text-danger[data-v-7b5a4d3b]\r\n{\n  color:red;\n}\n.my-custom-class .VueCarousel-navigation-button.VueCarousel-navigation-prev[data-v-7b5a4d3b] {\n  border: 1px solid;\n  left: -30px;\n  padding: 10px !important;\n}\r\n\r\n", ""]);
+exports.push([module.i, ".VueCarousel-dot--active[data-v-7b5a4d3b]\n{\n  background-color: white! important;\n}\n@media (max-width: 600px) {\n.VueCarousel-navigation-button[data-v-7b5a4d3b]{\n    display: none! important;\n}\n}\n@media screen and (max-width: 660px) {\n.VueCarousel-navigation-prev[data-v-7b5a4d3b],\n  .VueCarousel-navigation-next[data-v-7b5a4d3b]{\n    display:none! important;\n}\n}\n.VueCarousel-dot-button[data-v-7b5a4d3b] {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border: none;\n  background-color:black! important;\n  padding: 0;\n  border-radius: 100%;\n  outline: none;\n  cursor: pointer;\n}\n.tw-form-control-select[data-v-7b5a4d3b] {\n  display: block;\n  margin-top: 0.5rem;\n  /* -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none;\n   width: 100%; */\n  background-color: #f7fafc;\n  border-width: 1px;\n  border-color: #edf2f7;\n  color: #000;\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  border-radius: 0.25rem;\n}\n.modal-mask[data-v-7b5a4d3b] {\n  position: fixed;\n  /*position: absolute;\n  overflow: auto;*/\n  z-index: 9998;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-7b5a4d3b] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow:auto;\n}\n.modal-container[data-v-7b5a4d3b] {\n  margin: 0px auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 2px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  transition: all .3s ease;\n}\n.modal-header h3[data-v-7b5a4d3b] {\n  margin-top: 0;\n  color: #42b983;\n}\n.modal-body[data-v-7b5a4d3b] {\n  margin:10px 0;\n}\n.modal-default-button[data-v-7b5a4d3b] {\n  float: right;\n}\n.modal-enter[data-v-7b5a4d3b] {\n  opacity: 0;\n}\n.modal-leave-active[data-v-7b5a4d3b] {\n  opacity: 0;\n}\n.modal-enter .modal-container[data-v-7b5a4d3b],\n.modal-leave-active .modal-container[data-v-7b5a4d3b] {\n  transform: scale(1.1);\n}\n.text-danger[data-v-7b5a4d3b]\n{\n  color:red;\n}\n.my-custom-class .VueCarousel-navigation-button.VueCarousel-navigation-prev[data-v-7b5a4d3b] {\n  border: 1px solid;\n  left: -30px;\n  padding: 10px !important;\n}\n\n", ""]);
 
 // exports
 
@@ -76634,7 +76588,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".VueCarousel-dot--active[data-v-3677462f]\r\n{\n  background-color: white! important;\n}\n@media (max-width: 600px) {\n.VueCarousel-navigation-button[data-v-3677462f]{\n    display: none! important;\n}\n}\n@media screen and (max-width: 660px) {\n.VueCarousel-navigation-prev[data-v-3677462f],\r\n  .VueCarousel-navigation-next[data-v-3677462f]{\n    display:none! important;\n}\n}\n.VueCarousel-dot-button[data-v-3677462f] {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border: none;\n  background-color:black! important;\n  padding: 0;\n  border-radius: 100%;\n  outline: none;\n  cursor: pointer;\n}\n.tw-form-control-select[data-v-3677462f] {\n  display: block;\n  margin-top: 0.5rem;\n  /* -webkit-appearance: none;\r\n    -moz-appearance: none;\r\n    appearance: none;\r\n   width: 100%; */\n  background-color: #f7fafc;\n  border-width: 1px;\n  border-color: #edf2f7;\n  color: #000;\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  border-radius: 0.25rem;\n}\n.modal-mask[data-v-3677462f] {\n  position: fixed;\n  /*position: absolute;\r\n  overflow: auto;*/\n  z-index: 9998;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-3677462f] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow:auto;\n}\n.modal-container[data-v-3677462f] {\n  margin: 0px auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 2px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  transition: all .3s ease;\n}\n.modal-header h3[data-v-3677462f] {\n  margin-top: 0;\n  color: #42b983;\n}\n.modal-body[data-v-3677462f] {\n  margin:10px 0;\n}\n.modal-default-button[data-v-3677462f] {\n  float: right;\n}\n.modal-enter[data-v-3677462f] {\n  opacity: 0;\n}\n.modal-leave-active[data-v-3677462f] {\n  opacity: 0;\n}\n.modal-enter .modal-container[data-v-3677462f],\r\n.modal-leave-active .modal-container[data-v-3677462f] {\n  transform: scale(1.1);\n}\n.text-danger[data-v-3677462f]\r\n{\n  color:red;\n}\n.my-custom-class .VueCarousel-navigation-button.VueCarousel-navigation-prev[data-v-3677462f] {\n  border: 1px solid;\n  left: -30px;\n  padding: 10px !important;\n}\r\n\r\n", ""]);
+exports.push([module.i, ".VueCarousel-dot--active[data-v-3677462f]\n{\n  background-color: white! important;\n}\n@media (max-width: 600px) {\n.VueCarousel-navigation-button[data-v-3677462f]{\n    display: none! important;\n}\n}\n@media screen and (max-width: 660px) {\n.VueCarousel-navigation-prev[data-v-3677462f],\n  .VueCarousel-navigation-next[data-v-3677462f]{\n    display:none! important;\n}\n}\n.VueCarousel-dot-button[data-v-3677462f] {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  border: none;\n  background-color:black! important;\n  padding: 0;\n  border-radius: 100%;\n  outline: none;\n  cursor: pointer;\n}\n.tw-form-control-select[data-v-3677462f] {\n  display: block;\n  margin-top: 0.5rem;\n  /* -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none;\n   width: 100%; */\n  background-color: #f7fafc;\n  border-width: 1px;\n  border-color: #edf2f7;\n  color: #000;\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  border-radius: 0.25rem;\n}\n.modal-mask[data-v-3677462f] {\n  position: fixed;\n  /*position: absolute;\n  overflow: auto;*/\n  z-index: 9998;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-3677462f] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow:auto;\n}\n.modal-container[data-v-3677462f] {\n  margin: 0px auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 2px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  transition: all .3s ease;\n}\n.modal-header h3[data-v-3677462f] {\n  margin-top: 0;\n  color: #42b983;\n}\n.modal-body[data-v-3677462f] {\n  margin:10px 0;\n}\n.modal-default-button[data-v-3677462f] {\n  float: right;\n}\n.modal-enter[data-v-3677462f] {\n  opacity: 0;\n}\n.modal-leave-active[data-v-3677462f] {\n  opacity: 0;\n}\n.modal-enter .modal-container[data-v-3677462f],\n.modal-leave-active .modal-container[data-v-3677462f] {\n  transform: scale(1.1);\n}\n.text-danger[data-v-3677462f]\n{\n  color:red;\n}\n.my-custom-class .VueCarousel-navigation-button.VueCarousel-navigation-prev[data-v-3677462f] {\n  border: 1px solid;\n  left: -30px;\n  padding: 10px !important;\n}\n\n", ""]);
 
 // exports
 
@@ -76653,7 +76607,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".transfer-btn[data-v-7a0210a4] {\n  width: 36px;\n  height: 36px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid #d1d5db;\n  border-radius: 6px;\n  background: white;\n  font-size: 18px;\n  color: #374151;\n  cursor: pointer;\n  transition: background 0.15s, border-color 0.15s;\n  line-height: 1;\n}\n.transfer-btn[data-v-7a0210a4]:hover {\n  background: #f3f4f6;\n  border-color: #9ca3af;\n}\r\n", ""]);
+exports.push([module.i, ".transfer-btn[data-v-7a0210a4] {\n  width: 36px;\n  height: 36px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid #d1d5db;\n  border-radius: 6px;\n  background: white;\n  font-size: 18px;\n  color: #374151;\n  cursor: pointer;\n  transition: background 0.15s, border-color 0.15s;\n  line-height: 1;\n}\n.transfer-btn[data-v-7a0210a4]:hover {\n  background: #f3f4f6;\n  border-color: #9ca3af;\n}\n", ""]);
 
 // exports
 
@@ -76729,7 +76683,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".myCustomClass[data-v-5521f800] {\n  margin-top:10px;\n  bottom:0px;\n  right:0px;\n  position: fixed;\n  z-index: 40;\n}\r\n", ""]);
+exports.push([module.i, ".myCustomClass[data-v-5521f800] {\n  margin-top:10px;\n  bottom:0px;\n  right:0px;\n  position: fixed;\n  z-index: 40;\n}\n", ""]);
 
 // exports
 
@@ -76824,7 +76778,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".text-danger\r\n{\n  color:red;\n}\r\n", ""]);
+exports.push([module.i, ".text-danger\n{\n  color:red;\n}\n", ""]);
 
 // exports
 
@@ -76919,7 +76873,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".new\r\n{\n  width: 0.1px;\n  height: 0.1px;\n  opacity: 0;\n  overflow: hidden;\n  position: absolute;\n  z-index: -1;\n}\r\n", ""]);
+exports.push([module.i, ".new\n{\n  width: 0.1px;\n  height: 0.1px;\n  opacity: 0;\n  overflow: hidden;\n  position: absolute;\n  z-index: -1;\n}\n", ""]);
 
 // exports
 
@@ -76938,7 +76892,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 
 // module
-exports.push([module.i, ".modal-mask[data-v-803aa4c6] {\n  position: fixed;\n  z-index: 9998;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-803aa4c6] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow: auto;\n}\n.modal-container[data-v-803aa4c6] {\n  margin: 0 auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 4px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  height: auto;\n  overflow: auto;\n}\r\n", ""]);
+exports.push([module.i, ".modal-mask[data-v-803aa4c6] {\n  position: fixed;\n  z-index: 9998;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-803aa4c6] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow: auto;\n}\n.modal-container[data-v-803aa4c6] {\n  margin: 0 auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 4px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  height: auto;\n  overflow: auto;\n}\n", ""]);
 
 // exports
 
@@ -76957,7 +76911,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 
 // module
-exports.push([module.i, ".modal-mask[data-v-cdd89c2a] {\n  position: fixed;\n  z-index: 9998;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-cdd89c2a] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow: auto;\n}\n.modal-container[data-v-cdd89c2a] {\n  margin: 0 auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 4px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  height: auto;\n  overflow: auto;\n}\r\n", ""]);
+exports.push([module.i, ".modal-mask[data-v-cdd89c2a] {\n  position: fixed;\n  z-index: 9998;\n  top: 0; left: 0;\n  width: 100%; height: 100%;\n  background-color: rgba(0, 0, 0, .5);\n  display: table;\n  transition: opacity .3s ease;\n}\n.modal-wrapper[data-v-cdd89c2a] {\n  display: table-cell;\n  vertical-align: middle;\n  overflow: auto;\n}\n.modal-container[data-v-cdd89c2a] {\n  margin: 0 auto;\n  padding: 20px 30px;\n  background-color: #fff;\n  border-radius: 4px;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n  height: auto;\n  overflow: auto;\n}\n", ""]);
 
 // exports
 
@@ -171873,7 +171827,7 @@ var render = function() {
   return _c("div", { staticClass: "my-3" }, [
     _vm.success
       ? _c("div", { staticClass: "alert alert-success" }, [
-          _vm._v("\r\n        " + _vm._s(_vm.success) + "\r\n    ")
+          _vm._v("\n        " + _vm._s(_vm.success) + "\n    ")
         ])
       : _vm._e(),
     _vm._v(" "),
@@ -171949,9 +171903,7 @@ var render = function() {
             _vm._l(_vm.range(_vm.start, _vm.end), function(i) {
               return _c("option", { key: i, domProps: { value: i } }, [
                 _vm._v(
-                  "\r\n                    " +
-                    _vm._s(i) +
-                    "\r\n                "
+                  "\n                    " + _vm._s(i) + "\n                "
                 )
               ])
             })
@@ -172123,9 +172075,9 @@ var render = function() {
         _vm.errors.cover_image
           ? _c("span", { staticClass: "text-red-500 text-xs" }, [
               _vm._v(
-                "\r\n                " +
+                "\n                " +
                   _vm._s(_vm.errors.cover_image[0]) +
-                  "\r\n            "
+                  "\n            "
               )
             ])
           : _vm._e(),
@@ -172155,9 +172107,9 @@ var render = function() {
         _vm.errors.path
           ? _c("span", { staticClass: "text-red-500 text-xs" }, [
               _vm._v(
-                "\r\n                " +
+                "\n                " +
                   _vm._s(_vm.errors.path[0]) +
-                  "\r\n            "
+                  "\n            "
               )
             ])
           : _vm._e(),
@@ -187150,7 +187102,7 @@ var render = function() {
     [
       _vm.success
         ? _c("div", { staticClass: "alert alert-success" }, [
-            _vm._v("\r\n    " + _vm._s(_vm.success) + "\r\n  ")
+            _vm._v("\n    " + _vm._s(_vm.success) + "\n  ")
           ])
         : _vm._e(),
       _vm._v(" "),
@@ -187166,7 +187118,7 @@ var render = function() {
                 "ul",
                 _vm._l(_vm.errors, function(error, index) {
                   return _c("li", { key: index }, [
-                    _vm._v("\r\n        " + _vm._s(error) + "\r\n      ")
+                    _vm._v("\n        " + _vm._s(error) + "\n      ")
                   ])
                 }),
                 0
@@ -189387,88 +189339,12 @@ var render = function() {
           : _vm._e()
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "flex flex-col lg:flex-row md:flex-row" }, [
-        _c("div", { staticClass: "tw-form-group w-full lg:w-1/2 md:w-1/2" }, [
-          _c("div", { staticClass: "lg:mr-8 md:mr-8" }, [
-            _vm._m(7),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-2 w-full relative" }, [
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.address,
-                    expression: "address"
-                  }
-                ],
-                staticClass: "tw-form-control w-full",
-                attrs: { type: "text", name: "address", id: "address" },
-                domProps: { value: _vm.address },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.address = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("span", { staticClass: "absolute m-2 top-0 right-0" }, [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "#",
-                      onclick: "codeAddress(); return false;",
-                      id: "getCords"
-                    }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4 fill-current text-gray-600",
-                        attrs: {
-                          version: "1.1",
-                          xmlns: "http://www.w3.org/2000/svg",
-                          "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                          x: "0px",
-                          y: "0px",
-                          width: "30.239px",
-                          height: "30.239px",
-                          viewBox: "0 0 30.239 30.239",
-                          "xml:space": "preserve"
-                        }
-                      },
-                      [
-                        _c("g", [
-                          _c("path", {
-                            attrs: {
-                              d:
-                                "M20.194,3.46c-4.613-4.613-12.121-4.613-16.734,0c-4.612,4.614-4.612,12.121,0,16.735 c4.108,4.107,10.506,4.547,15.116,1.34c0.097,0.459,0.319,0.897,0.676,1.254l6.718,6.718c0.979,0.977,2.561,0.977,3.535,0 c0.978-0.978,0.978-2.56,0-3.535l-6.718-6.72c-0.355-0.354-0.794-0.577-1.253-0.674C24.743,13.967,24.303,7.57,20.194,3.46z M18.073,18.074c-3.444,3.444-9.049,3.444-12.492,0c-3.442-3.444-3.442-9.048,0-12.492c3.443-3.443,9.048-3.443,12.492,0 C21.517,9.026,21.517,14.63,18.073,18.074z"
-                            }
-                          })
-                        ])
-                      ]
-                    )
-                  ]
-                )
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _vm._m(8),
-        _vm._v(" "),
-        _vm._m(9)
-      ]),
+      _c("portal-target", { attrs: { name: "edit_address" } }),
       _vm._v(" "),
       _c("div", { staticClass: "tw-form-group" }, [
         _c("div", { staticClass: "flex flex-col lg:flex-row" }, [
           _c("div", { staticClass: "w-full lg:w-1/4 lg:mr-8 md:pr-8" }, [
-            _vm._m(10),
+            _vm._m(7),
             _vm._v(" "),
             _c("div", { staticClass: "mb-2" }, [
               _c(
@@ -189525,7 +189401,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "w-full lg:w-1/4 lg:mr-8 md:pr-8" }, [
-            _vm._m(11),
+            _vm._m(8),
             _vm._v(" "),
             _c("div", { staticClass: "mb-2" }, [
               _c(
@@ -189582,7 +189458,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "w-full lg:w-1/4 lg:mr-8 md:pr-8" }, [
-            _vm._m(12),
+            _vm._m(9),
             _vm._v(" "),
             _c("div", { staticClass: "mb-2" }, [
               _c(
@@ -189639,7 +189515,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "w-full lg:w-1/4 lg:mr-8 md:pr-8" }, [
-            _vm._m(13),
+            _vm._m(10),
             _vm._v(" "),
             _c("div", { staticClass: "mb-2" }, [
               _c("input", {
@@ -189684,7 +189560,7 @@ var render = function() {
       _c("div", { staticClass: "flex flex-col lg:flex-row" }, [
         _c("div", { staticClass: "tw-form-group w-full lg:w-1/2" }, [
           _c("div", { staticClass: "lg:mr-8 md:mr-8" }, [
-            _vm._m(14),
+            _vm._m(11),
             _vm._v(" "),
             _c("div", { staticClass: "mb-2" }, [
               _c("textarea", {
@@ -189838,84 +189714,6 @@ var staticRenderFns = [
         [_vm._v("Sub-Category")]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mb-2" }, [
-      _c("label", { staticClass: "tw-form-label", attrs: { for: "address" } }, [
-        _vm._v("Address")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "tw-form-group w-full lg:w-1/2 md:w-1/2" },
-      [
-        _c("div", { staticClass: "lg:mr-8 md:mr-8" }, [
-          _c("div", {
-            staticClass: "tw-form-control",
-            staticStyle: { height: "250px" },
-            attrs: { id: "map_canvas" }
-          })
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "tw-form-group w-1/2", attrs: { hidden: "" } },
-      [
-        _c("div", { staticClass: "lg:mr-8 md:mr-8" }, [
-          _c("div", { staticClass: "mb-2" }, [
-            _c(
-              "label",
-              {
-                staticClass: "col-md-4 control-label",
-                attrs: { for: "latitude" }
-              },
-              [_vm._v("Latitude")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-2 w-full relative" }, [
-            _c("input", {
-              staticClass: "tw-form-control w-1/2",
-              attrs: { id: "latitude", type: "text", name: "latitude" }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "lg:mr-8 md:mr-8" }, [
-          _c("div", { staticClass: "mb-2" }, [
-            _c(
-              "label",
-              {
-                staticClass: "col-md-4 control-label",
-                attrs: { for: "longitude" }
-              },
-              [_vm._v("Longitude")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-2 w-full relative" }, [
-            _c("input", {
-              staticClass: "tw-form-control w-1/2",
-              attrs: { id: "longitude", type: "text", name: "longitude" }
-            })
-          ])
-        ])
-      ]
-    )
   },
   function() {
     var _vm = this
@@ -206230,7 +206028,7 @@ var render = function() {
                 }
               }
             },
-            [_vm._v("\r\n            Enter your name\r\n         ")]
+            [_vm._v("            Enter your name\n         ")]
           ),
           _vm._v(" "),
           _vm.errors.notes
@@ -206955,6 +206753,19 @@ var render = function() {
           },
           [_vm._v(_vm._s(_vm.success))]
         )
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.errors && !Array.isArray(_vm.errors) && Object.keys(_vm.errors).length
+      ? _c("div", { staticClass: "alert alert-danger" }, [
+          _c(
+            "ul",
+            { staticClass: "mb-0" },
+            _vm._l(_vm.errors, function(msgs, field) {
+              return _c("li", { key: field }, [_vm._v(_vm._s(msgs[0]))])
+            }),
+            0
+          )
+        ])
       : _vm._e(),
     _vm._v(" "),
     _vm.show === "add"
@@ -208003,7 +207814,7 @@ var render = function() {
                   return _c(
                     "option",
                     { key: item.id, domProps: { value: item.id } },
-                    [_vm._v(_vm._s(item.name))]
+                    [_vm._v(_vm._s(item.display_name))]
                   )
                 })
               ],
@@ -220510,7 +220321,7 @@ var render = function() {
                 }
               }
             },
-            [_vm._v("Submit \r\n        ")]
+            [_vm._v("Submit \n        ")]
           )
         ])
       ])
@@ -263168,8 +262979,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\church-cms-new\resources\assets\js\app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\church-cms-new\resources\assets\sass\app.scss */"./resources/assets/sass/app.scss");
+__webpack_require__(/*! /Users/huffperson/Desktop/church-cms-standreweoc/resources/assets/js/app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! /Users/huffperson/Desktop/church-cms-standreweoc/resources/assets/sass/app.scss */"./resources/assets/sass/app.scss");
 
 
 /***/ }),
