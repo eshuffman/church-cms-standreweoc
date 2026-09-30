@@ -14,5 +14,3 @@
 - Registration Management: As a church school administrator, I want to have an easy way to receive registrations for church school and decide who will go into each class.
 
 - Member Directory: As a church member, I want to have an easy way to recognize who the other members of the church are so I can connect better with them at coffee hour.
-
-- 

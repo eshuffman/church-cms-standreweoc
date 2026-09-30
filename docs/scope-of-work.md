@@ -15,13 +15,15 @@ And include the following features:
 - [Donate button](#donate-button)
 - [Social media links](#social-media-links)
 
-The site will also include the following administrative features, taking advantage of the ChurchCMS platform:
+Additionally, the site integrate the ChurchCMS platform for administrative work, to include:
 
 - Member Profiles
 - Searchable directory
 - Online tithing
 - Giving statements
 - Church school registration
+
+**ChurchCMS will be its own thang, accessible from our new domain via an admin link. The two sites will not interact; our public-facing site will not be built using ChurchCMS.**
 
 ## Scope of Work
 
